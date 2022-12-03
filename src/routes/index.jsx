@@ -1,3 +1,4 @@
+import Auth from 'pages/Auth';
 import Home from '../pages/Home/index';
 
 export const routes = {
@@ -5,8 +6,8 @@ export const routes = {
         path: '/',
         element: <Home />,
     },
-    BLOGS: {
-        path: '/blogs',
-        element: <Home />
+    Auth: {
+        path: '/auth',
+        element: <Auth />,
     },
 };
